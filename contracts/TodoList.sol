@@ -9,7 +9,7 @@ contract TodoList {
         bool completed;
     }
 
-    mapping (uint => Task) public tasks;
+    mapping(uint => Task) public tasks;
 
     constructor() public {
         createTask("Checkout my Dapp Training");
