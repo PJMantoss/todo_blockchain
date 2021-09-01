@@ -1,6 +1,7 @@
 App = {
     load: async () => {
         await App.loadWeb3();
+        await App.loadAccount();
         console.log("app loading...")
     },
 
